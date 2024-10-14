@@ -52,6 +52,7 @@ To run the object detection pipeline, ensure you have the following dependencies
 
 **4. Evaluation and Visualization:**
 + The model's performance is evaluated on the test set, and predicted bounding boxes and classes are visualized.
+  
 ![output](https://github.com/user-attachments/assets/e75a5a13-2832-4c9d-b619-16b5dc58d312)
   
 ## ROS Integration 🤖
