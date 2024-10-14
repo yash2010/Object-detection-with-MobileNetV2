@@ -4,8 +4,9 @@
 This repository contains two main components: a deep learning-based object detection pipeline and a ROS node integration for real-time object detection. The object detection model predicts both bounding boxes and object classes, while the ROS node captures images from a camera feed and uses the model to detect and classify objects in real-time.
 
 The files 📂: 
+
 **[Object_detection-1](/Object_detection-1)** contains the datasets of the test environment. These images were used to train the MobileNetV2 model
-**[trained_model(.keras files)](/trained_model(.keras files))** containes the pretrained models to use in the ROS integration program
+**[trained_model(.keras files)](/trained_model (.keras files))** containes the pretrained models to use in the ROS integration program
 
 
 ## Features ⚙️
