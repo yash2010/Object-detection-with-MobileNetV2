@@ -99,8 +99,8 @@ print(num_classes)
 def create_model(input_shape, num_classes, reg):
 
     base_model = MobileNetV2(input_shape = input_shape, include_top = False, weights='imagenet')
-    for layers in base_model.layers:
-        layers.trainable = False
+    for layers in base_model.layers[:-10]:
+        layers.trainable = True
 
     x = base_model.output
     x = GlobalAveragePooling2D()(x)
